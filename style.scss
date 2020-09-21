@@ -20,6 +20,7 @@ body {
   bottom: 0;
   left: 0;
   right: 0;
+  z-index: 1;
 }
 
 #modal {
@@ -32,6 +33,9 @@ body {
   left: 0;
   right: 0;
   margin: 0 auto;
+  //transformが変化するときは0.4sかけろと記述する
+  transition: transform 0.4s;
+  z-index: 2;
 
   p {
     margin: 0 0 20px;
