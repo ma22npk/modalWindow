@@ -37,3 +37,11 @@ body {
     margin: 0 0 20px;
   }
 }
+
+#mask.hidden {
+  display: none;
+}
+
+#modal.hidden {
+  transform: translate(0, -500px);
+}

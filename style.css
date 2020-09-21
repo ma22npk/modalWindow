@@ -37,4 +37,13 @@ body {
 #modal p {
   margin: 0 0 20px;
 }
+
+#mask.hidden {
+  display: none;
+}
+
+#modal.hidden {
+  -webkit-transform: translate(0, -500px);
+          transform: translate(0, -500px);
+}
 /*# sourceMappingURL=style.css.map */
